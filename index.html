@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="个人成长与人生指南：把值得反复实践的方法整理成一份可搜索、可持续更新的手册。">
+<title>个人成长与人生指南</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="reading-progress"><span id="progress"></span></div>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#top" aria-label="回到首页">
+    <span class="brand-icon">✳</span>
+    <span><b>个人成长与人生指南</b><small>HOW TO LIVE BETTER</small></span>
+  </a>
+  <div class="sidebar-tools">
+    <span class="eyebrow">本书目录</span>
+    <span class="chapter-count" id="chapterCount">10 节</span>
+  </div>
+  <nav id="toc" aria-label="章节目录"></nav>
+  <div class="sidebar-bottom">
+    <span class="tiny-dot"></span>
+    <span>慢慢变好，也是一种进步。</span>
+  </div>
+</aside>
+<div class="mobile-scrim" id="scrim"></div>
+<main id="top">
+  <header class="toolbar">
+    <button class="icon-button mobile-only" id="menuToggle" aria-label="打开目录">☰</button>
+    <div class="breadcrumb">个人知识库 <span>/</span> 人生指南</div>
+    <div class="toolbar-actions">
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="搜索本书内容…" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <button class="icon-button" id="themeToggle" aria-label="切换深色模式" title="切换深色模式">☾</button>
+    </div>
+  </header>
+
+  <div class="book-layout">
+    <section class="book-intro">
+      <div class="book-kicker"><span class="kicker-line"></span> A PRACTICAL GUIDE TO A BETTER LIFE</div>
+      <h1>高质量生活，<br><em>从理解自己开始。</em></h1>
+      <p class="intro-text">一份关于自我认知、学习、工作与生活的个人指南。它不提供标准答案，只整理那些值得思考、值得实践的原则。</p>
+      <div class="book-meta">
+        <span>◷ 持续更新</span><span>·</span><span id="readingTime">约 12 分钟阅读</span><span>·</span><span>个人知识手册</span>
+      </div>
+    </section>
+
+    <section class="start-note">
+      <div class="note-symbol">✎</div>
+      <div><b>如何使用这份指南</b><p>可以从头阅读，也可以通过左侧目录或搜索直达主题。把有用的原则变成行动，并持续补充你自己的经验。</p></div>
+    </section>
+
+    <div class="search-summary" id="searchSummary" aria-live="polite"></div>
+    <div class="no-results" id="noResults">没有找到相关内容。试试更短的关键词，例如「习惯」「选择」或「学习」。</div>
+
+    <div id="chapters">
+      <article class="chapter" id="s1" data-title="先理解自己">
+        <div class="chapter-heading"><span class="chapter-index">01</span><div><p class="chapter-label">SELF-AWARENESS</p><h2>先理解自己</h2><p class="chapter-deck">在做人生规划之前，先弄清楚自己是谁、重视什么。</p></div></div>
+        <div class="prose">
+          <p>我们很容易把别人的期待误认为自己的目标：应该有一份体面的工作，应该不断进步，应该在某个年龄取得某种成就。但如果从来没有停下来问过自己，这些“应该”就可能变成无意识的生活轨道。</p>
+          <h3>区分真正想要的东西</h3>
+          <p>面对一个目标，可以问自己三个问题：如果没有人知道我做成了这件事，我还想做吗？我喜欢的是过程，还是别人对结果的评价？为了它，我愿意付出什么，又不愿意牺牲什么？</p>
+          <div class="principle"><span>核心原则</span><p>不要急着给自己贴标签。持续观察自己在什么事情上有能量、在哪些环境里发挥得更好，比仓促定义“我是什么样的人”更有用。</p></div>
+          <h3>一个可以马上做的练习</h3>
+          <ul><li>写下过去一年最有成就感的三件事。</li><li>写下最消耗你的三种情境。</li><li>比较两组记录，找出反复出现的价值观和环境因素。</li></ul>
+          <div class="reflection"><b>想一想</b><p>如果未来一年只能认真做好三件事，你希望它们是什么？为什么？</p></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="s2" data-title="把目标变成行动">
+        <div class="chapter-heading"><span class="chapter-index">02</span><div><p class="chapter-label">DIRECTION & ACTION</p><h2>把目标变成行动</h2><p class="chapter-deck">方向不必一次想清楚，但下一步最好足够具体。</p></div></div>
+        <div class="prose">
+          <p>目标的价值不在于写得多漂亮，而在于它能不能帮助你做出选择。一个好的目标应该能解释：为什么值得做、什么算有进展、下一步具体做什么。</p>
+          <h3>用三个时间尺度管理目标</h3>
+          <ul><li><b>长期方向：</b>未来三到五年，希望自己具备什么能力、拥有怎样的生活？</li><li><b>年度重点：</b>今年最值得投入的两三件事是什么？</li><li><b>本周行动：</b>这周做什么，能让其中一件事向前移动一点？</li></ul>
+          <h3>把愿望翻译成行为</h3>
+          <p>“我要提升表达能力”很难执行；“每周做一次五分钟的主题分享，并记录一个需要改进的地方”则清晰得多。具体行动能降低开始的心理成本，也方便复盘。</p>
+          <div class="principle"><span>核心原则</span><p>目标可以宏大，行动要小。先建立持续行动的证据，再逐步提高难度。</p></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="s3" data-title="建立持续学习系统">
+        <div class="chapter-heading"><span class="chapter-index">03</span><div><p class="chapter-label">LEARNING SYSTEM</p><h2>建立持续学习系统</h2><p class="chapter-deck">不要只收藏知识，要让知识进入真实生活。</p></div></div>
+        <div class="prose">
+          <p>看懂一段内容，会带来短暂的熟悉感，但熟悉不等于掌握。真正的学习需要提取、解释、应用和反馈。输入是开始，输出才会暴露理解的边界。</p>
+          <h3>从输入走向输出</h3>
+          <p>学习一个工具，尽早做一个小项目；读一本书，尝试用自己的话写出三条结论；掌握一个概念，找一个真实问题去应用。输出不必完美，关键是形成反馈循环。</p>
+          <div class="steps"><div><b>01 · 理解</b><span>抓住核心概念</span></div><div><b>02 · 复述</b><span>用自己的话解释</span></div><div><b>03 · 应用</b><span>解决一个真实问题</span></div><div><b>04 · 复盘</b><span>修正薄弱环节</span></div></div>
+          <h3>建立轻量知识库</h3>
+          <p>每条笔记尽量回答四件事：它是什么、为什么重要、什么时候能用、我自己的例子是什么。不要为了完整而复制大量原文，留下未来的自己能快速理解的内容就够了。</p>
+          <div class="reflection"><b>行动清单</b><label><input type="checkbox"> 选一个正在学习的主题</label><label><input type="checkbox"> 写出三条自己的理解</label><label><input type="checkbox"> 用它完成一个小练习或作品</label></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="s4" data-title="打造职业竞争力">
+        <div class="chapter-heading"><span class="chapter-index">04</span><div><p class="chapter-label">CAREER DEVELOPMENT</p><h2>打造职业竞争力</h2><p class="chapter-deck">从完成任务，到解决问题，再到沉淀方法。</p></div></div>
+        <div class="prose">
+          <p>职业成长不仅是职位和薪水的变化，也是解决问题的能力、协作方式和判断力不断积累的过程。努力很重要，但要尽可能让努力沉淀为可迁移的能力和可展示的成果。</p>
+          <h3>把工作经历变成成果资产</h3>
+          <p>每完成一个项目，记录背景、目标、关键行动、结果和复盘。尽量使用可验证的指标描述影响；如果没有量化数据，也可以明确说明解决了什么问题、改善了什么流程。</p>
+          <div class="example"><div class="example-label">表达方式对比</div><p class="weak">较弱：负责整理业务数据，制作运营报表。</p><p class="strong">更清晰：整合多业务线分散数据，统一指标口径并搭建监控看板，帮助团队更快定位异常与管理重点。</p></div>
+          <h3>练习结构化沟通</h3>
+          <ul><li>先说结论，再说依据和建议。</li><li>把事实、判断和推测分开。</li><li>遇到风险尽早同步，并准备可选方案。</li><li>汇报结果时说明影响，而不只是罗列做过的事情。</li></ul>
+          <div class="principle"><span>核心原则</span><p>每做完一件事，都问自己：这次积累了什么下次还能复用的方法？</p></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="s5" data-title="管理时间与注意力">
+        <div class="chapter-heading"><span class="chapter-index">05</span><div><p class="chapter-label">TIME & ATTENTION</p><h2>管理时间与注意力</h2><p class="chapter-deck">忙碌不等于有效，重要的事情需要被主动保护。</p></div></div>
+        <div class="prose">
+          <p>时间管理并不是把每一分钟填满，而是让有限的时间流向真正重要的事情。注意力频繁切换会增加隐形成本，因此需要为深度工作留出空间。</p>
+          <h3>每天确定一件关键任务</h3>
+          <p>每天开始时，选出一件即使其他事情没做完，也希望自己推进的任务。给它安排具体时间，并在这段时间内尽量关闭无关提醒。</p>
+          <h3>减少不必要的切换</h3>
+          <ul><li>把消息和零碎事务集中处理。</li><li>复杂任务拆成清楚的下一步。</li><li>给日程留出缓冲，避免计划被一个意外完全打乱。</li><li>当精力不足时，先休息或调整任务，不要只靠责备自己推动进度。</li></ul>
+        </div>
+      </article>
+
+      <article class="chapter" id="s6" data-title="建立财务安全感">
+        <div class="chapter-heading"><span class="chapter-index">06</span><div><p class="chapter-label">MONEY & SECURITY</p><h2>建立财务安全感</h2><p class="chapter-deck">看清现金流，为未来保留选择空间。</p></div></div>
+        <div class="prose">
+          <p>金钱不是人生价值的衡量标准，但健康的财务习惯可以减轻不必要的压力。比起追逐复杂技巧，先理解自己的收入、支出、储蓄和风险承受能力更重要。</p>
+          <h3>从了解现金流开始</h3>
+          <ul><li>记录固定支出与弹性支出，找出真实的消费模式。</li><li>在条件允许时逐步准备应急储备。</li><li>重大消费前，区分短期情绪与长期需要。</li><li>面对金融产品，先理解风险、费用、流动性和最坏情形。</li></ul>
+          <div class="principle"><span>提醒自己</span><p>不要因为焦虑而做自己无法理解的财务决定。投资、税务或债务等重大问题，必要时寻求合格专业人士的帮助。</p></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="s7" data-title="经营关系与边界">
+        <div class="chapter-heading"><span class="chapter-index">07</span><div><p class="chapter-label">RELATIONSHIPS</p><h2>经营关系与边界</h2><p class="chapter-deck">真诚表达，也尊重彼此的差异。</p></div></div>
+        <div class="prose">
+          <p>好的关系不是永远没有分歧，而是在分歧发生时，仍然能够表达真实想法、理解对方的立场，并寻找彼此都能接受的做法。</p>
+          <h3>先确认理解，再表达观点</h3>
+          <p>试着用自己的话复述对方的重点，再确认是否理解准确。理解不等于同意，它只是让讨论建立在同一份信息之上。</p>
+          <h3>练习清晰的边界</h3>
+          <p>你可以温和但明确地说明自己的时间、精力和底线。比起勉强答应后产生怨气，提前说清楚能做到什么、不能做到什么，通常更有利于长期关系。</p>
+        </div>
+      </article>
+
+      <article class="chapter" id="s8" data-title="照顾身体与精力">
+        <div class="chapter-heading"><span class="chapter-index">08</span><div><p class="chapter-label">HEALTH & ENERGY</p><h2>照顾身体与精力</h2><p class="chapter-deck">长期成长需要可持续的能量来源。</p></div></div>
+        <div class="prose">
+          <p>成长不应该以持续透支为代价。睡眠、饮食、运动、休息和稳定的生活节奏，是支撑长期行动的基础，而不是等完成所有任务后才配拥有的奖励。</p>
+          <h3>建立能长期维持的底线</h3>
+          <p>找到适合自己的作息与活动方式。忙碌时，也尽量保留基本的吃饭、睡眠和休息时间。状态不佳时，先照顾基本需要，再重新安排计划。</p>
+          <div class="reflection"><b>每周自查</b><label><input type="checkbox"> 这一周是否有足够的休息？</label><label><input type="checkbox"> 有没有一项让我感到放松的活动？</label><label><input type="checkbox"> 下周可以减少哪一种不必要的消耗？</label></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="s9" data-title="做出更好的决策">
+        <div class="chapter-heading"><span class="chapter-index">09</span><div><p class="chapter-label">DECISION MAKING</p><h2>做出更好的决策</h2><p class="chapter-deck">不追求永远正确，而是建立更好的判断过程。</p></div></div>
+        <div class="prose">
+          <p>很多选择都没有完美答案。与其反复纠结，不如先弄清楚决策的目标、限制条件、可选方案，以及做错之后是否能够调整。</p>
+          <h3>一个简洁的决策框架</h3>
+          <ul><li><b>定义问题：</b>我真正要解决的是什么？</li><li><b>明确标准：</b>什么因素最重要，什么是不可妥协的限制？</li><li><b>比较选项：</b>每个选项的收益、代价和风险是什么？</li><li><b>设置复查点：</b>什么新信息出现时，我会重新评估决定？</li></ul>
+          <div class="principle"><span>核心原则</span><p>把可逆的决定尽快做，把影响深远且难以撤回的决定留出更多思考时间。</p></div>
+        </div>
+      </article>
+
+      <article class="chapter" id="s10" data-title="定期复盘，持续更新">
+        <div class="chapter-heading"><span class="chapter-index">10</span><div><p class="chapter-label">REFLECTION & GROWTH</p><h2>定期复盘，持续更新</h2><p class="chapter-deck">把经历变成经验，把经验变成下一次更好的行动。</p></div></div>
+        <div class="prose">
+          <p>复盘不是给自己打分，也不是反复责备过去的选择。它的价值在于从经历中提取可以带走的经验，决定下一步保留什么、调整什么。</p>
+          <h3>每周给自己十分钟</h3>
+          <div class="reflection"><label><input type="checkbox"> 这周什么事情做得不错？为什么？</label><label><input type="checkbox"> 哪个问题反复出现？我能改变什么？</label><label><input type="checkbox"> 我学到了什么，可以记录下来？</label><label><input type="checkbox"> 下周最重要的一件事是什么？</label></div>
+          <p>这份指南不是定稿。随着你经历更多事情，可以加入真实案例、书籍摘记、项目复盘和自己的判断。删掉不再适用的建议，也允许自己改变想法。</p>
+          <div class="closing-note"><span>✳</span><p>你不需要一次想清楚整个人生。认真走好眼前的一小段路，再根据新的经验调整方向，就已经很好。</p></div>
+        </div>
+      </article>
+    </div>
+    <footer class="page-footer"><span>个人成长与人生指南</span><span>持续学习 · 持续实践 · 持续更新</span></footer>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
